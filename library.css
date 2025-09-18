@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Georgia', serif;
+  background-color: #f5f0e6; /* parchment color */
+  color: #3e2723; /* dark brown */
+  text-align: center;
+}
+
+header {
+  padding: 40px;
+}
+
+header h1 {
+  color: #6d4c41; /* deep wood color */
+}
+
+.content {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+blockquote {
+  font-style: italic;
+  color: #5d4037;
+  border-left: 3px solid #8d6e63;
+  padding-left: 10px;
+  margin: 20px auto;
+  width: fit-content;
+}
+
+/* 🕯️ Hidden Clue in CSS */
+.secret {
+  display: none;
+}
+
+/*
+   Scroll deeper into this CSS scroll... 
+   The coordinates are hidden in plain sight:
+   LAT: 12.98  |  LON: 77.59
+*/
+
+footer {
+  background-color: #e6d5b8;
+  padding: 15px;
+  font-size: 0.9rem;
+}
+.hidden-text{
+    color:transparent;
+}
